@@ -18,7 +18,7 @@ body {
 }
 
 header {
-  height: 50px;
+  height: 25px;
   padding: 1rem 0.5rem;
   display: flex;
   justify-content: space-between;
@@ -32,7 +32,8 @@ header {
 }
 
 .header__tickets--heading {
-  margin-left: 1rem;
+  margin-left: 8px;
+  font-size: 18px;
 }
 
 main {
@@ -52,7 +53,7 @@ main {
 }
 
 .main__logo {
-  height: 80px;
+  height: 50px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -62,7 +63,7 @@ main {
 }
 
 .main__logo--gif {
-  width: 100px;
+  width: 50px;
   filter: brightness(1.4);
 }
 
@@ -70,18 +71,18 @@ main {
   display: flex;
   flex-direction: column;
   gap: 5px;
-  margin: 12px;
+  margin: 10px;
 }
 
 .main__text--heading {
   margin: 0;
-  font-size: 24px;
+  font-size: 18px;
 }
 
 .main__text--paragraph {
   margin: 0;
   color: gray;
-  font-size: 18px;
+  font-size: 12px;
 }
 
 .images {
@@ -92,13 +93,13 @@ main {
 }
 
 .images img {
-  max-width: 250px;
+  max-width: 180px;
   width: 80%;
 }
 
 .text--number {
   margin: 5px 0;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .ticket__info {
@@ -119,7 +120,7 @@ main {
 
 .ticket__info--item p {
   margin: 0;
-  font-size: 20px;
+  font-size: 12px;
 }
 
 .ticket__info--gray {
@@ -127,5 +128,5 @@ main {
 }
 
 .price {
-  font-size: 48px;
+  font-size: 24px;
 }

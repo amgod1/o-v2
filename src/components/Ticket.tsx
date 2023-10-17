@@ -1,7 +1,4 @@
 import { FC } from "react"
-// import logo from "./logo.gif"
-// import QRCode from "./qr-code.svg"
-// import buses from "./buses.png"
 
 export const Ticket: FC = () => (
   <main>
@@ -15,8 +12,8 @@ export const Ticket: FC = () => (
       </p>
     </div>
     <div className="images">
-      <img src="./qr-code.svg" className="qr-code" alt="qr-code" />
-      <img src="./buses.png" className="buses" alt="qr-code" />
+      <img src="./qr-code.svg" alt="qr-code" />
+      <img src="./buses.png" alt="qr-code" />
     </div>
     <h3 className="text--number">Рег.знак: XXXX T_№XX ()</h3>
     <div className="ticket__info">
