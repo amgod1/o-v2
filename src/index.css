@@ -35,7 +35,8 @@ header {
 
 .header__tickets--heading {
   margin-left: 8px;
-  font-size: 18px;
+  font-size: 1rem;
+  font-weight: 400;
 }
 
 main {
@@ -72,7 +73,7 @@ main {
 
 .main__text--heading {
   margin: 0;
-  font-size: 1.5rem;
+  font-size: 1rem;
   font-weight: 400;
 }
 
@@ -117,7 +118,11 @@ main {
 
 .ticket__info--item p {
   margin: 0;
-  font-size: 12px;
+  font-size: 0.75rem;
+}
+
+.ticket__info--item .ticket__info--black {
+  font-size: 1rem;
 }
 
 .ticket__info--gray {
