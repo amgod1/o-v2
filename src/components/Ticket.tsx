@@ -36,7 +36,9 @@ export const Ticket: FC = () => (
         <p className="ticket__info--black">0100385</p>
       </div>
     </div>
-    <h2 className="main__text--heading price">0,85 BYN</h2>
+    <h2 className="main__text--heading price">
+      0,85 <span>BYN</span>
+    </h2>
     <p className="main__text--paragraph">Разовый</p>
   </main>
 )
