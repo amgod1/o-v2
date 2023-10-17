@@ -6,7 +6,7 @@ export const Ticket: FC = () => (
       <img src="./logo.gif" className="main__logo--gif" alt="logo" />
     </div>
     <div className="main__text">
-      <h2 className="main__text--heading">Минск</h2>
+      <h6 className="main__text--heading">Минск</h6>
       <p className="main__text--paragraph">
         Государственное предприятие "Минсктранс"
       </p>
@@ -36,9 +36,9 @@ export const Ticket: FC = () => (
         <p className="ticket__info--black">0100385</p>
       </div>
     </div>
-    <h2 className="main__text--heading price">
+    <h6 className="main__text--heading price">
       0,85 <span>BYN</span>
-    </h2>
+    </h6>
     <p className="main__text--paragraph">Разовый</p>
   </main>
 )
