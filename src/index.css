@@ -39,12 +39,22 @@ header {
   font-weight: 400;
 }
 
-main {
+.header__button {
+  color: white;
+  background-color: inherit;
+  padding: 5px;
+
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.main {
   margin: 2rem auto;
   padding-bottom: 0.5rem;
 
   width: 85vw;
-  max-width: 576px;
+  max-width: 320px;
   border-radius: 1rem;
 
   color: black;
@@ -98,6 +108,7 @@ main {
   margin: 0;
   font-size: 1rem;
   font-weight: 400;
+  padding: 0 0.5rem;
 }
 
 .ticket__info {
@@ -139,4 +150,80 @@ main {
   line-height: 1.167;
   letter-spacing: 0em;
   font-size: 24px;
+}
+
+.settings__wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+
+  padding: 24px;
+  height: 75vh;
+  width: 75vw;
+  max-width: 320px;
+
+  background-color: black;
+  border: solid 2px white;
+  border-radius: 12px;
+  font-size: 1rem;
+}
+
+.settings--items {
+  height: 90%;
+
+  display: flex;
+  flex-direction: column;
+  /* gap: 36px; */
+  justify-content: space-around;
+}
+
+.settings--item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  height: 24px;
+}
+
+.settings--button {
+  color: white;
+  background-color: black;
+  cursor: pointer;
+
+  outline: none;
+  border: solid 1px white;
+  border-radius: 10px;
+  padding: 16px;
+  font-size: 1rem;
+}
+
+.active-button {
+  background-color: #00c25f;
+}
+
+.settings--close {
+  width: 100%;
+  text-align: end;
+
+  outline: none;
+  border: none;
+
+  cursor: pointer;
+  color: white;
+  background-color: black;
+}
+
+.settings--input,
+.settings--select {
+  color: white;
+  background-color: black;
+
+  outline: none;
+  border: none;
+  border-bottom: solid 2px white;
+  padding: 8px;
+  font-size: 1rem;
+  max-width: 100px;
 }
