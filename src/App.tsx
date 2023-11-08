@@ -7,10 +7,9 @@ import { TicketContextProvider } from "./context/TicketContext"
 import { x } from "./constants/x"
 
 export const App = () => {
-  useEffect(() => {
-    localStorage.setItem("x", x)
-    console.log("done")
-  }, [])
+  if (localStorage.getItem("x") !== x) {
+    return null
+  }
 
   return (
     <ModalContextProvider>
