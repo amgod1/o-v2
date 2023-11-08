@@ -8,7 +8,7 @@ import { x } from "./constants/x"
 
 export const App = () => {
   if (localStorage.getItem("x") !== x) {
-    return null
+    return <></>
   }
 
   return (
