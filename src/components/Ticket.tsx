@@ -47,7 +47,7 @@ export const Ticket: FC = () => {
         </div>
       </div>
       <h6 className="main__text--heading price">
-        0,85 <span>BYN</span>
+        0,95 <span>BYN</span>
       </h6>
       <p className="main__text--paragraph">Разовый</p>
     </div>
